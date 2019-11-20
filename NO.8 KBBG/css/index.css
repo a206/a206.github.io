@@ -1,0 +1,43 @@
+/*初始化*/
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.clearfix:after
+{
+	content: "";	
+	display: block;
+	clear: both;
+}
+/*登录页面*/
+.all {
+	height: 750px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-image: url(../img/u=1339877000,3230997179&fm=26&gp=0.jpg);
+	display: block;
+}
+.shang{
+	padding-top: 70px;
+	display: block;
+	width: 1180px;
+	height: 200px;
+
+}
+
+.denglu{
+	border-radius: 150px;
+	width: 300px;
+	height:300px;
+	border:2px  solid  grey;
+	position: relative;
+	right: -10px;
+}
+/*表格*/
+.bg{
+	position: relative;
+	top: 50px;
+}

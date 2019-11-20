@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>学生信息管理系统</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+
+	<body>
+		<script src="js/my script.js"></script>
+		<div class="all">
+			<br /><br /><br />
+			<p align="center"><font size="6" face="楷体" color="black">学生信息管理</font></p>
+			<div class="bg">
+				<h4 style="text-align: center;">添加学生信息</h2>
+    <center>
+      
+			学号: <input type="text" id="newname" /> &nbsp;&nbsp;
+        姓名: <input type="text" id="num" />
+   &nbsp;<input type="button" value="提交" id="sumbit" onclick="add()" name="submit"  style="width: 100px; height:25px;background-color:blue;border-radius: 10px; color: white;"/> 
+         
+         
+         <table border="1" id="tab">
+					<tr>
+						
+						<td>学号</td>
+						<td>姓名</td>
+						<td>
+							<a onclick="empty()" href="">操作</a>
+						</td>
+					</tr>
+				  <tr >
+				<td>xtu001</td>
+				<td>章三三</td>
+				<td >
+					<a onclick="del(this)" href="#" >Delete</a>
+				</td>
+			</tr>
+			
+			<tr >
+				<td>xtu002</td>
+				<td>李思思</td>
+				<td >
+				<a onclick="del(this)" href="#" >Delete</a>
+				</td>
+			</tr>
+			
+			<tr name="item">
+				<td>xtu003</td>
+				<td>张晓明</td>
+				<td >
+				<a onclick="del(this)" href="#" >Delete</a>
+				</td>
+			</tr>
+			
+			<tr name="item">
+				<td>xtu004</td>
+				<td>朴俊逸</td>
+				<td >
+				<a onclick="del(this)" href="#" >Delete</a>
+				</td>
+			</tr>
+			
+        
+         
+         </table>
+ 
+    </center>
+		
+
+	</body>
+
+</html>
