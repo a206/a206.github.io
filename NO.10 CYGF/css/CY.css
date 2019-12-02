@@ -259,7 +259,11 @@ ul{list-style-type: none;}
 .xx h2{
 	color:white;
 }
-
+.xx img{
+	width: 200px;
+	margin-right: 100px;
+	display: block;
+}
 /*菜单页面*/
 .suoyou{
 	display: block;
