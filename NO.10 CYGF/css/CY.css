@@ -283,6 +283,9 @@ ul{list-style-type: none;}
 	
 }
 .naodai p{
+	display: block;
+	float: left;
+	margin-top: 5px;
 	color: white;
 	}
 .naodai a{
@@ -293,13 +296,14 @@ ul{list-style-type: none;}
 	color: white;
 	float: left;
 	margin-top: 5px;
-	margin-left: 710px;
+	margin-left: 45em;
 }
 .a2{
 	margin-top: 5px;
 	display: block;
 	color: #85E085;
 	float: left;
+	margin-left:0.3em;
 }
 .a1:link{
 	color: white;
