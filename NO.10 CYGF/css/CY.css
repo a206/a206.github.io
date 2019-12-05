@@ -304,7 +304,11 @@ ul{list-style-type: none;}
 	display: block;
 	color: #85E085;
 	float: left;
+<<<<<<< HEAD
 	margin-left: 0.3em;
+=======
+	margin-left:0.3em;
+>>>>>>> ae13951de07b9d1f198db433d5bf15090b60a55d
 }
 .a1:link{
 	color: white;
