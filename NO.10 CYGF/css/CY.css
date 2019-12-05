@@ -259,7 +259,11 @@ ul{list-style-type: none;}
 .xx h2{
 	color:white;
 }
-
+.xx img{
+	width: 200px;
+	margin-right: 100px;
+	display: block;
+}
 /*菜单页面*/
 .suoyou{
 	display: block;
@@ -274,11 +278,14 @@ ul{list-style-type: none;}
 }
 .naodai font{
 	display: block;
-	padding-top: 30px;
-	margin-left: 620px;
+	padding-top: 0.7em;
+	margin-left:13.5em;
 	
 }
 .naodai p{
+	display: block;
+	float: left;
+	margin-top: 5px;
 	color: white;
 	}
 .naodai a{
@@ -289,13 +296,15 @@ ul{list-style-type: none;}
 	color: white;
 	float: left;
 	margin-top: 5px;
-	margin-left: 710px;
+	margin-left: 45em;
 }
+
 .a2{
 	margin-top: 5px;
 	display: block;
 	color: #85E085;
 	float: left;
+	margin-left: 0.3em;
 }
 .a1:link{
 	color: white;
